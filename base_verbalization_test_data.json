@@ -1,0 +1,17 @@
+[
+  {
+    "title": "simple case",
+    "data": "askelfha;siedfjsleijfras;idkisaefdja'opsekdfaeldf'.acsdc\naskelfha;siedfjsleijfras;idkisaefdja'opsekdfaeldf'.acsdc\naskelfha;siedfjsleijfras;idkisaefdja'opsekdfaeldf'.acsdc\naskelfha;siedfjsleijfras;idkisaefdja'opsekdfaeldf'.acsdc\naskelfha;siedfjsleijfras;idkisaefdja'opsekdfaeldf'.acsdc",
+    "solution": "solution1"
+  },
+  {
+    "title": "complex case",
+    "data": "askelfha;siedfjsleijfras;idkisaefdja'opsekdfaeldf'.acsdc\naskelfha;siedfjsleijfras;idkisaefdja'opsekdfaeldf'.acsdc\naskelfha;siedfjsleijfras;idkisaefdja'opsekdfaeldf'.acsdc\naskelfha;siedfjsleijfras;idkisaefdja'opsekdfaeldf'.acsdc\naskelfha;siedfjsleijfras;idkisaefdja'opsekdfaeldf'.acsdc",
+    "solution": "solution1"
+  },
+  {
+    "title": "edge case",
+    "data": "askelfha;siedfjsleijfras;idkisaefdja'opsekdfaeldf'.acsdc\naskelfha;siedfjsleijfras;idkisaefdja'opsekdfaeldf'.acsdc\naskelfha;siedfjsleijfras;idkisaefdja'opsekdfaeldf'.acsdc\naskelfha;siedfjsleijfras;idkisaefdja'opsekdfaeldf'.acsdc\naskelfha;siedfjsleijfras;idkisaefdja'opsekdfaeldf'.acsdc",
+    "solution": "solution1"
+  }
+]
