@@ -53,4 +53,4 @@ jobs:
         if: ${{ inputs.verb_data != '' && inputs.block_data != '' }}
         run: |
           pip install pytest
-          pytest test_cases.py --block_data="${{ github.workspace }}/custom_block_data.json" --verb_data="${{ github.workspace }}/custom_verb_data.json" --doctest-modules --junitxml=junit/test-results.xml
+          pytest test_cases.py --block_data=${{ github.workspace }}/custom_block_data.json --verb_data=${{ github.workspace }}/custom_verb_data.json --doctest-modules --junitxml=junit/test-results.xml

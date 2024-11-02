@@ -3,14 +3,14 @@ import pytest
 def pytest_addoption(parser):
     parser.addoption(
         "--block_data",
-        action="append",
-        default="base_text_block_test_data.json",
+        action="store",
+        default="",
         help="name of the file containing test data for text block test",
     )
     parser.addoption(
         "--verb_data",
-        action="append",
-        default="base_verbalization_test_data.json",
+        action="store",
+        default="",
         help="name of the file containing test data for verbalization test",
     )
 
