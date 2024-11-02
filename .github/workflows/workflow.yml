@@ -40,10 +40,10 @@ jobs:
         run: python -m pip install --upgrade pip setuptools wheel
       - name: Download custom block data
         if: ${{ inputs.block_data != ''}}
-        run: wget -nc -P custom_block_data.json ${{ inputs.block_data }}
+        run: wget -nc -O "custom_block_data.json" ${{ inputs.block_data }}
       - name: Download custom verb data
         if: ${{ inputs.verb_data != ''}}
-        run: wget -nc -P custom_verb_data.json ${{ inputs.verb_data }}
+        run: wget -nc -O "custom_verb_data.json" ${{ inputs.verb_data }}
       - name: Test basic test cases
         if: ${{ inputs.verb_data == '' || inputs.block_data == '' }}
         run: |
@@ -53,4 +53,4 @@ jobs:
         if: ${{ inputs.verb_data != '' && inputs.block_data != '' }}
         run: |
           pip install pytest
-          pytest test_cases.py --block_data=custom_block_data.json --verb_data=custom_verb_data.json --doctest-modules --junitxml=junit/test-results.xml
+          pytest test_cases.py --block_data="custom_block_data.json" --verb_data="custom_verb_data.json" --doctest-modules --junitxml=junit/test-results.xml
